@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "lunar",
+			"name": "Lunar Lang"
+		},
+		{
+			"path": "transpiler",
+			"name": "Lua Transpiler"
+		},
+		{
+			"path": "vm",
+			"name": "Player/VM"
+		},
+		{
+			"path": ".",
+			"name": "Full"
+		}
+	],
+	"settings": {}
+}

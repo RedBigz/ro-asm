@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+"""
+Lunar Language
+
+Syntax:
+./lunar <OPTIONS> FILENAME
+
+Options:
+-o, --output OUTPUT - Specifies output file instead of "out.bin" or "out.s"
+-a, --output-assembly - Output assembly instead of executable RoASM code.
+"""
+
+import sys
+
+def compile(filename: str):
+    pass
+
+def cmdline() -> None:
+    compile(1)
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        cmdline()
+    else:
+        print(__doc__.replace("./lunar", ["./lunar", "py lunar"][sys.platform == "win32"]))
